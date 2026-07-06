@@ -8,3 +8,13 @@ body {
   margin: 0;
   background-color: white;
 }
+
+.dark {
+  background-color: #0f0f0f;
+  color: white;
+}
+
+.light {
+  background-color: white;
+  color: black;
+}

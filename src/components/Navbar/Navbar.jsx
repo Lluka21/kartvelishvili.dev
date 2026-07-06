@@ -1,4 +1,9 @@
+import { useContext } from "react";
+import { ThemeContext } from "../../context/ThemeContext";
+
 export default function Navbar() {
+  const { darkMode, setDarkMode } = useContext(ThemeContext);
+
   return (
     <div
       style={{
@@ -48,15 +53,20 @@ export default function Navbar() {
           <span>LinkedIn</span>
 
           <button
+            onClick={() => setDarkMode(!darkMode)}
             style={{
-              padding: "6px 12px",
-              borderRadius: "8px",
-              border: "1px solid #ccc",
-              background: "transparent",
+              padding: "8px 12px",
+              borderRadius: "20px",
+              border: "1px solid #3DDC84",
+              backgroundColor: "#66e7a0",
+              color: "white",
               cursor: "pointer",
+              display: "flex",
+              alignItems: "center",
+              gap: "8px",
             }}
           >
-            Toggler
+            {darkMode ? "🌙 Dark" : "☀️ Light"}
           </button>
         </div>
       </div>
