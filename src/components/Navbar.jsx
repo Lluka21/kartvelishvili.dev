@@ -1,0 +1,61 @@
+export default function Navbar() {
+  return (
+    <div
+      style={{
+        width: "100%",
+        backgroundColor: "red",
+        borderBottom: "2px solid #c5c3c3",
+      }}
+    >
+      <div
+        style={{
+          maxWidth: "1100px",
+          margin: "0 auto",
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+          padding: "20px 16px",
+          flexWrap: "wrap",
+          gap: "12px",
+        }}
+      >
+        <nav
+          style={{
+            display: "flex",
+            gap: "16px",
+            flexWrap: "wrap",
+          }}
+        >
+          <a>About</a>
+          <a>Apps</a>
+          <a>Contact</a>
+        </nav>
+
+        <div
+          style={{
+            display: "flex",
+            gap: "12px",
+            alignItems: "center",
+            flexWrap: "wrap",
+          }}
+        >
+          <span>EN/GE</span>
+          <span>GitHub</span>
+          <span>LinkedIn</span>
+
+          <button
+            style={{
+              padding: "6px 12px",
+              borderRadius: "8px",
+              border: "1px solid #ccc",
+              background: "transparent",
+              cursor: "pointer",
+            }}
+          >
+            Toggler
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
