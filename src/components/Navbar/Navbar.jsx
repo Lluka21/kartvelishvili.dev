@@ -3,7 +3,7 @@ export default function Navbar() {
     <div
       style={{
         width: "100%",
-        backgroundColor: "red",
+        backgroundColor: "#3DDC84",
         borderBottom: "2px solid #c5c3c3",
       }}
     >
@@ -24,6 +24,8 @@ export default function Navbar() {
             display: "flex",
             gap: "16px",
             flexWrap: "wrap",
+            color: "white",
+            fontWeight: "bolder",
           }}
         >
           <a>About</a>
@@ -37,6 +39,8 @@ export default function Navbar() {
             gap: "12px",
             alignItems: "center",
             flexWrap: "wrap",
+            color: "white",
+            fontWeight: "bolder",
           }}
         >
           <span>EN/GE</span>
