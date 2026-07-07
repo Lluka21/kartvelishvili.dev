@@ -12,6 +12,7 @@ function AppContent() {
       <Navbar />
     </div>
   );
+  console.log(darkMode);
 }
 
 export default function App() {
