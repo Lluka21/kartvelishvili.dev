@@ -1,0 +1,43 @@
+.aboutMe_wrapper {
+  padding-top: 100px;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.aboutMe_imageSection {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.image {
+  width: 35px;
+  height: 35px;
+  border-radius: 30px;
+}
+
+.aboutMe_text {
+  display: flex;
+  flex-direction: column;
+  font-size: 100px;
+  font-weight: bolder;
+  color: #3ddc84;
+}
+
+.name {
+  margin-bottom: -40px;
+}
+
+.surname {
+  margin-top: 0;
+}
+
+.aboutMe_info {
+  width: 700px;
+  color: #6e7c74;
+}
+
+.aboutMe_role {
+  color: #3ddc84;
+}

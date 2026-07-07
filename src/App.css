@@ -9,6 +9,11 @@ body {
   background-color: white;
 }
 
+.dark,
+.light {
+  min-height: 100vh;
+}
+
 .dark {
   background-color: #0f0f0f;
   color: white;
