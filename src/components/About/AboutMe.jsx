@@ -11,14 +11,14 @@ export default function AboutMe() {
       </div>
 
       <h1 className="aboutMe_text">
-        <span>Luka</span>
-        <span>Kartvelishvili</span>
+        <span className="name">Luka</span>
+        <span className="surname">Kartvelishvili</span>
       </h1>
 
       <p className="aboutMe_info">
-        Android Developer, passionate about building clean, maintainable, and
-        user-friendly mobile applications. Experienced in creating projects
-        end-to-end and focused on delivering high-quality results.
+        Android Developer passionate about building clean, maintainable, and
+        user-friendly mobile applications. Experienced in developing end-to-end
+        projects with a focus on delivering high-quality solutions.
       </p>
     </div>
   );

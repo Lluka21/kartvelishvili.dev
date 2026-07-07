@@ -25,9 +25,19 @@
   color: #3ddc84;
 }
 
-.aboutMe_info {
-  width: 700px;
+.name {
+  margin-bottom: -40px;
 }
 
-.information_text {
+.surname {
+  margin-top: 0;
+}
+
+.aboutMe_info {
+  width: 700px;
+  color: #6e7c74;
+}
+
+.aboutMe_role {
+  color: #3ddc84;
 }
