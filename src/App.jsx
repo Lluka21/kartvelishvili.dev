@@ -11,6 +11,7 @@ function AppContent() {
   return (
     <div className={darkMode ? "dark" : "light"}>
       <Navbar />
+      <AboutMe />
     </div>
   );
   console.log(darkMode);
@@ -20,7 +21,6 @@ export default function App() {
   return (
     <ThemeProvider>
       <AppContent />
-      <AboutMe />
     </ThemeProvider>
   );
 }
