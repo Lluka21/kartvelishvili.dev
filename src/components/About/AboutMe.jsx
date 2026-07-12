@@ -16,7 +16,7 @@ export default function AboutMe() {
       </h1>
 
       <p className="aboutMe_info">
-        Androi Developer passionate about building clean, maintainable, and
+        Android Developer passionate about building clean, maintainable, and
         user-friendly mobile applications. Experienced in developing end-to-end
         projects with a focus on delivering high-quality solutions.
       </p>
