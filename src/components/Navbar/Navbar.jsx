@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { ThemeContext } from "../../context/ThemeContext";
 import "./Navbar.css";
+import ReactSwitch from "react-switch";
 
 export default function Navbar() {
   const { darkMode, setDarkMode } = useContext(ThemeContext);
@@ -20,13 +21,7 @@ export default function Navbar() {
           <span>EN/GE</span>
           <span>GitHub</span>
           <span>LinkedIn</span>
-
-          <button
-            onClick={() => setDarkMode(!darkMode)}
-            className="theme-button"
-          >
-            {darkMode ? "🌙 Dark" : "☀️ Light"}
-          </button>
+          <ReactSwitch checked={darkMode} onChange={setDarkMode} />
         </div>
       </div>
     </div>
