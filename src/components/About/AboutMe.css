@@ -41,3 +41,20 @@
 .aboutMe_role {
   color: #3ddc84;
 }
+
+.my_information {
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.skills {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .my_information {
+    flex-direction: column;
+  }
+}
