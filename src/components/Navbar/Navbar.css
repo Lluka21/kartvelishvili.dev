@@ -32,6 +32,11 @@
   opacity: 0.9;
 }
 
+a {
+  text-decoration: none;
+  color: #3ddc84;
+}
+
 .navbar-right {
   display: flex;
   gap: 12px;
