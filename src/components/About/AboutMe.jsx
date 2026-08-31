@@ -10,7 +10,7 @@ export default function AboutMe() {
     <div className="aboutMe_wrapper">
       <div className="aboutMe_imageSection">
         <h2 className="aboutMe_role">Android Developer</h2>
-        <img src={androidImage} className="image" alt="Android Developer" />
+        {/* <img src={androidImage} className="image" alt="Android Developer" /> */}
       </div>
       <div className="my_information">
         <DetailedInfo />

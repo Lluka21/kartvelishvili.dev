@@ -12,8 +12,8 @@ export default function Navbar() {
         <nav>
           <div className="navbar-links">
             <a>About</a>
-            <a>Apps</a>
-            <a>Contact</a>
+            <a>Projects</a>
+            <a>Contact Me</a>
           </div>
         </nav>
 
