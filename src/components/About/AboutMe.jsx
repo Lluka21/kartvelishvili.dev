@@ -3,6 +3,7 @@ import "./AboutMe.css";
 import androidImage from "../../assets/android_boy.png";
 import DetailedInfo from "./DetailedInfo/DetailedInfo";
 import PersonalProjects from "./PersonalProjects/PersonalProjects";
+import Skills from "../Tech-Stack/Skills";
 
 export default function AboutMe() {
   return (
@@ -14,6 +15,9 @@ export default function AboutMe() {
       <div className="my_information">
         <DetailedInfo />
         <PersonalProjects />
+      </div>
+      <div className="skills">
+        <Skills />
       </div>
     </div>
   );
