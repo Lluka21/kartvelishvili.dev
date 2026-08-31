@@ -44,6 +44,12 @@
 
 .my_information {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  /* justify-content: center; */
+}
+
+@media (max-width: 768px) {
+  .my_information {
+    flex-direction: column;
+  }
 }
